@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+hr{background-color: pink; height: 5px; border: pink}
+
+.flex-container {
+    display: flex;
+    align-items: center;
+}
+.music, .picture{
+    width: 2em;
+}
+
+.row.d-flex {
+    display: flex;
+    justify-content: space-between; /* 자식 요소들을 공간 사이에 균등하게 배치합니다. */
+}
+
+.col-lg-4.col-md-6 {
+    flex-grow: 1; /* 남은 공간을 균등하게 분배합니다. */
+}
+
+.additional-info {
+            display: none;
+            /* 원하는 스타일을 여기에 추가하세요. */
+        }
+.section-subheading {
+    text-align: center;
+}
+.btn-social {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: pink;
+}
+
+.btn-social:hover {
+    background-color: inherit; /* 배경 색상을 상위 요소에서 상속받도록 설정 */
+}
+
+
+/* 새로운 :hover 스타일을 추가하여 핑크로 변경 */
+.btn-social:hover {
+    background-color: pink; /* 새로운 배경 색상 설정 */
+}
+
+.btn-social {
+    background-color: inherit; /* 배경 색상을 상위 요소에서 상속받도록 설정 */
+    border: none; /* 기존 테두리 스타일 제거 */
+}
+
+.btn-social {
+    background-color: pink; /* 새로운 배경 색상 설정 */
+    border: 2px solid pink; /* 새로운 테두리 스타일 추가 */
+}
+
+.btn-social:hover {
+    background-color: inherit; /* 배경 색상을 상위 요소에서 상속받도록 설정 */
+    border: none; /* 기존 테두리 스타일 제거 */
+}
+
+.btn-social:hover {
+    background-color: pink; /* 새로운 배경 색상 설정 */
+    border: 2px solid pink; /* 새로운 테두리 스타일 추가 */
+}
